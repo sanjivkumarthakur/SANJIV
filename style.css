@@ -1,0 +1,112 @@
+*{
+    font-family: cursive;
+    background-color: aqua;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    background-color: darkgray;
+
+}
+
+header div{
+    color: blue;
+    text-decoration: wavy;
+    font-size: x-large;
+    font-style: oblique;
+}
+
+header p{
+    font-style: italic;
+    font-stretch: condensed;
+    color: darkblue;
+    
+}
+
+header button{
+    color: blue;
+    background-color: darkgrey;
+}
+
+img{
+    margin-top: 2rem;
+    border: 3px solid blueviolet;
+    border-radius: 50px;
+    border-style: dashed;
+}
+
+h3{
+    color: blue;
+    font-weight: 1000;
+}
+
+li{
+    font-style: italic;
+}
+
+table{
+    table-layout: fixed;
+    border-radius: 5px;
+    border: 2px solid green;
+    margin-top: 20px;
+}
+
+form{
+    font-weight: 700;
+}
+
+input{
+    border: 2px solid ;
+    font-weight: 500;
+}
+
+#name{
+    color: blue;
+}
+
+
+header + h1{
+    color: red;
+    text-transform: uppercase;
+}
+
+
+header ~ h1{
+    color: red;
+    text-transform: uppercase;
+}
+
+section > p{
+    color: blue;
+    text-decoration: dashed;
+}
+
+[href]{
+    color: greenyellow;
+}
+
+[href="#"]{
+    color: white;
+    text-decoration: dashed;
+}
+
+p[class]{
+    font-size: xx-large;
+    text-decoration: line-through;
+}
+
+header + h1::first-letter{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: black;
+}
+
+header + h1:hover{
+   color: black;
+   font-size: x-small;
+}
+
+p:nth-child(odd){
+    color: red;
+}
